@@ -1,0 +1,7 @@
+# Private deployment/operator notes
+deploy.md
+
+# Onion identity backups contain private impersonation keys
+onion-identity*.tar.gz
+onion-identity*.sha256
+

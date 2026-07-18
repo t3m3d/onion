@@ -1,0 +1,37 @@
+name: onion
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/web.Dockerfile
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${ONION_PREVIEW_PORT:-8181}:80"
+    volumes:
+      - ./site:/usr/share/nginx/html:ro
+      - tor-state:/var/lib/tor:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1/healthz"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+
+  tor:
+    build:
+      context: .
+      dockerfile: docker/tor.Dockerfile
+    restart: unless-stopped
+    depends_on:
+      web:
+        condition: service_started
+    volumes:
+      - tor-state:/var/lib/tor
+    healthcheck:
+      test: ["CMD-SHELL", "test -s /var/lib/tor/hidden_service/hostname"]
+      interval: 10s
+      timeout: 3s
+      retries: 12
+
+volumes:
+  tor-state:

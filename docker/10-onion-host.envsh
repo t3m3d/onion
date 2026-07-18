@@ -1,0 +1,26 @@
+#!/bin/sh
+set -eu
+
+hostname_file=/var/lib/tor/hidden_service/hostname
+attempt=0
+
+while [ ! -s "$hostname_file" ]; do
+  attempt=$((attempt + 1))
+  if [ "$attempt" -ge 60 ]; then
+    echo "Timed out waiting for Tor to create onion hostname" >&2
+    exit 1
+  fi
+  sleep 1
+done
+
+ONION_HOST=$(tr -d '\r\n' < "$hostname_file")
+case "$ONION_HOST" in
+  *.onion) ;;
+  *)
+    echo "Tor produced invalid onion hostname" >&2
+    exit 1
+    ;;
+esac
+
+export ONION_HOST
+echo "Serving Krypton at http://$ONION_HOST"

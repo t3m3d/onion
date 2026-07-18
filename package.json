@@ -1,0 +1,10 @@
+{
+  "name": "krypton-onion-mirror",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "verify": "node scripts/verify-mirror.mjs && node scripts/verify-meta.mjs"
+  }
+}

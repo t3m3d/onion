@@ -1,0 +1,287 @@
+{
+  "source": "https://krypton-lang.org/",
+  "compatibilityRewrites": {
+    "/programs.html": "/programs/",
+    "/path-coming-soon": "/brain.html"
+  },
+  "files": [
+    {
+      "url": "https://krypton-lang.org/about.html",
+      "file": "about.html"
+    },
+    {
+      "url": "https://krypton-lang.org/ads/gpdlonly.png",
+      "file": "ads/gpdlonly.png"
+    },
+    {
+      "url": "https://krypton-lang.org/ads/pw-ad.html",
+      "file": "ads/pw-ad.html"
+    },
+    {
+      "url": "https://krypton-lang.org/atom.xml",
+      "file": "atom.xml"
+    },
+    {
+      "url": "https://krypton-lang.org/blog.html",
+      "file": "blog.html"
+    },
+    {
+      "url": "https://krypton-lang.org/blog/2026-05-30-launch-week.html",
+      "file": "blog/2026-05-30-launch-week.html"
+    },
+    {
+      "url": "https://krypton-lang.org/blog/2026-06-01-elf-from-scratch.html",
+      "file": "blog/2026-06-01-elf-from-scratch.html"
+    },
+    {
+      "url": "https://krypton-lang.org/blog/2026-06-16-exherbo-store.html",
+      "file": "blog/2026-06-16-exherbo-store.html"
+    },
+    {
+      "url": "https://krypton-lang.org/brain.html",
+      "file": "brain.html"
+    },
+    {
+      "url": "https://krypton-lang.org/brain.png",
+      "file": "brain.png"
+    },
+    {
+      "url": "https://krypton-lang.org/compare.html",
+      "file": "compare.html"
+    },
+    {
+      "url": "https://krypton-lang.org/contact.html",
+      "file": "contact.html"
+    },
+    {
+      "url": "https://krypton-lang.org/docs.html",
+      "file": "docs.html"
+    },
+    {
+      "url": "https://krypton-lang.org/docs/course-outline.html",
+      "file": "docs/course-outline.html"
+    },
+    {
+      "url": "https://krypton-lang.org/docs/kcss-design.html",
+      "file": "docs/kcss-design.html"
+    },
+    {
+      "url": "https://krypton-lang.org/docs/wasm-backend.html",
+      "file": "docs/wasm-backend.html"
+    },
+    {
+      "url": "https://krypton-lang.org/downloads.html",
+      "file": "downloads.html"
+    },
+    {
+      "url": "https://krypton-lang.org/exherbo-privacy.html",
+      "file": "exherbo-privacy.html"
+    },
+    {
+      "url": "https://krypton-lang.org/features.html",
+      "file": "features.html"
+    },
+    {
+      "url": "https://krypton-lang.org/icon.svg",
+      "file": "icon.svg"
+    },
+    {
+      "url": "https://krypton-lang.org/",
+      "file": "index.html"
+    },
+    {
+      "url": "https://krypton-lang.org/kryptscript.html",
+      "file": "kryptscript.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn.html",
+      "file": "learn.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/01_hello_world.html",
+      "file": "learn/01_hello_world.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/02_variables.html",
+      "file": "learn/02_variables.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/03_strings.html",
+      "file": "learn/03_strings.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/04_arithmetic.html",
+      "file": "learn/04_arithmetic.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/05_conditionals.html",
+      "file": "learn/05_conditionals.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/06_while_loops.html",
+      "file": "learn/06_while_loops.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/07_functions.html",
+      "file": "learn/07_functions.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/08_print.html",
+      "file": "learn/08_print.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/09_to_int.html",
+      "file": "learn/09_to_int.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/10_booleans.html",
+      "file": "learn/10_booleans.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/11_lists.html",
+      "file": "learn/11_lists.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/12_string_builder.html",
+      "file": "learn/12_string_builder.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/13_pairs.html",
+      "file": "learn/13_pairs.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/14_file_io.html",
+      "file": "learn/14_file_io.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/15_arguments.html",
+      "file": "learn/15_arguments.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/16_environment.html",
+      "file": "learn/16_environment.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/17_go_blocks.html",
+      "file": "learn/17_go_blocks.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/18_lines.html",
+      "file": "learn/18_lines.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/19_pattern_matching.html",
+      "file": "learn/19_pattern_matching.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/20_putting_it_together.html",
+      "file": "learn/20_putting_it_together.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/21_structs.html",
+      "file": "learn/21_structs.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/22_try_catch.html",
+      "file": "learn/22_try_catch.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/23_for_in.html",
+      "file": "learn/23_for_in.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/24_string_interpolation.html",
+      "file": "learn/24_string_interpolation.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/25_match.html",
+      "file": "learn/25_match.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/26_booleans.html",
+      "file": "learn/26_booleans.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/27_imports.html",
+      "file": "learn/27_imports.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/28_maps.html",
+      "file": "learn/28_maps.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/29_closures.html",
+      "file": "learn/29_closures.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/30_json.html",
+      "file": "learn/30_json.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/31_http_client.html",
+      "file": "learn/31_http_client.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/32_html_with_htmk.html",
+      "file": "learn/32_html_with_htmk.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/33_styling_with_kcss.html",
+      "file": "learn/33_styling_with_kcss.html"
+    },
+    {
+      "url": "https://krypton-lang.org/learn/34_browser_hn.html",
+      "file": "learn/34_browser_hn.html"
+    },
+    {
+      "url": "https://krypton-lang.org/manifest.json",
+      "file": "manifest.json"
+    },
+    {
+      "url": "https://krypton-lang.org/objk.html",
+      "file": "objk.html"
+    },
+    {
+      "url": "https://krypton-lang.org/objk.png",
+      "file": "objk.png"
+    },
+    {
+      "url": "https://krypton-lang.org/og.svg",
+      "file": "og.svg"
+    },
+    {
+      "url": "https://krypton-lang.org/particles.wasm",
+      "file": "particles.wasm"
+    },
+    {
+      "url": "https://krypton-lang.org/playground.html",
+      "file": "playground.html"
+    },
+    {
+      "url": "https://krypton-lang.org/programs/",
+      "file": "programs/index.html"
+    },
+    {
+      "url": "https://krypton-lang.org/programs/stem.html",
+      "file": "programs/stem.html"
+    },
+    {
+      "url": "https://krypton-lang.org/runner.js",
+      "file": "runner.js"
+    },
+    {
+      "url": "https://krypton-lang.org/sponsor.html",
+      "file": "sponsor.html"
+    },
+    {
+      "url": "https://krypton-lang.org/stem.png",
+      "file": "stem.png"
+    },
+    {
+      "url": "https://krypton-lang.org/wasm_runner.js",
+      "file": "wasm_runner.js"
+    }
+  ],
+  "externalSubresources": [],
+  "failures": []
+}
