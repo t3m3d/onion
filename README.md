@@ -1,1 +1,1 @@
-comiing very soon, onion sits. CASUTION iof you use codex, they have bankrupt me twice.
+comiing very soon, onion sits. CAUTION iof you use codex, they have bankrupt me twice.
